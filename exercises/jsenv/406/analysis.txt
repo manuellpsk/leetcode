@@ -1,0 +1,27 @@
+Return: 
+Devolver una lista con las personas ordenadas, 
+es decir, la persona con estatura h tiene k personas
+frente(hacia la izquierda) con estatura mayor o igual a
+h
+Input: people = 
+[[6,0],
+[5,0],
+[4,0],
+[3,2],
+[2,2],
+[1,4]]
+
+Output: 
+[[4,0],
+[5,0],
+[2,2],
+[3,2],
+[1,4],
+[6,0]]
+
+Mi algoritmo recorrera todo el array
+e ira agregando a la lista,
+si cumple return true, sino return false
+
+el primer elementos siempre tendra k=0
+y h min de los k=0
