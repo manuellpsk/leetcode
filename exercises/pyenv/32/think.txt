@@ -1,0 +1,12 @@
+1. Devolver la candena mas larga de parentesis correctos.
+2. El input solo tiene los chars '(' y ')'
+3. Una cadena correcta es aquella que cierra todas consecutivamente
+    Por ejemplo:
+        ()
+        ()()
+        (())
+        ())()()
+        (()()))()
+    0 - 1. 1
+    0 - 3. 2
+    0 - 5. 3

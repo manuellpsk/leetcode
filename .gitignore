@@ -1,3 +1,6 @@
 ./exercises/pyenv/bin
 ./exercises/pyenv/lib
 ./exercises/jsenv/node_modules
+**/__pycache__/
+**/.pytest_cache/
+.vscode/
